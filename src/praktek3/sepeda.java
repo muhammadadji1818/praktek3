@@ -6,7 +6,7 @@ public class sepeda {
     private String warna;
     private double harga;
     
-    void cetakinfo(){
+    void cetakInfo(){
         System.out.println("merk \t: "+merk+"\n"+
                 "warna \t: "+warna+"\n"+
                 "warna \t: "+harga);

@@ -1,17 +1,17 @@
 package praktek3;
 
 public class SepedaMotor extends sepeda{
-    private string jenisMotor;
+    private String jenisMotor;
     
     void throttle(){
         System.out.println("bremmmmm.......");
     }
 
-    public string getJenisMotor() {
+    public String getJenisMotor() {
         return jenisMotor;
     }
 
-    public void setJenisMotor(string jenisMotor) {
+    public void setJenisMotor(String jenisMotor) {
         this.jenisMotor = jenisMotor;
     }
     
